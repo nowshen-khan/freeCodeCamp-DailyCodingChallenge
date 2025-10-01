@@ -13,8 +13,11 @@ This repo contains my daily practice solutions, grouped **week by week** for eac
 
 ### September 2025
 
-- [Week 1](./october-2025/week-1.js) → Phone Number Formatter, Reverse String, Sum of Digits, etc.
-- Week 2 → Coming soon...
+- [Week 4](./september-2025/week-4.js) → Longest Word, Phone Number Formatter etc.
+
+### October 2025
+
+- [Week 1](./october-2025/week-1.js) → Binary to Decimal, etc.
 
 <!--
 ✅ Examples
