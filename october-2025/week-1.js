@@ -18,3 +18,19 @@ The binary number 101 equals 5 in decimal because: 1 * 2^2 + 0 * 2^1 + 1 * 2^0 =
 4. toDecimal("1010101") should return 85.
 ------------------------------------------------------
 */
+
+function toDecimal(binary) {
+	let decimal = 0;
+	let num = binary.split("").reverse();
+
+	for (let i = 0; i < num.length; i++) {
+		if (num[i] === "1") {
+			decimal += Math.pow(2, i);
+		}
+	}
+	return decimal;
+}
+console.log(toDecimal("101")); // 5
+console.log(toDecimal("1010")); // 10
+console.log(toDecimal("10010")); // 18
+console.log(toDecimal("1010101")); // 85

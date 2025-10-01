@@ -29,10 +29,6 @@ console.log(getLongestWord("coding is fun")); // coding
 console.log(getLongestWord("Coding challenges are fun and educational.")); // educational
 console.log(getLongestWord("This sentence has multiple long words.")); // sentence
 
-/* ======================================================
-📅 September 2025 - Week 4
-====================================================== */
-
 /* 
 ------------------------------------------------------
 Problem 30: Phone Number Formatter
