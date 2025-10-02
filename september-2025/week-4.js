@@ -4,6 +4,31 @@
 
 /* 
 ------------------------------------------------------
+Problem 28: CSV Header Parser
+------------------------------------------------------
+Given the first line of a comma-separated values (CSV) file, return an array containing the headings.
+
+The first line of a CSV file contains headings separated by commas.
+Remove any leading or trailing whitespace from each heading.
+
+✅ Examples:
+1. getHeadings("name,age,city") should return ["name", "age", "city"].
+2. getHeadings("first name,last name,phone") should return ["first name", "last name", "phone"].
+3. getHeadings("username , email , signup date ") should return ["username", "email", "signup date"].
+------------------------------------------------------
+*/
+function getHeadings(csv) {
+	let values = csv.split(",");
+	values = values.map((values) => values.trim());
+	return values;
+}
+console.log(getHeadings("name,age,city"));
+console.log(getHeadings("first name,last name,phone"));
+console.log(getHeadings("username , email , signup date "));
+console.log(getHeadings("username , email , signup date "));
+
+/* 
+------------------------------------------------------
 Problem 29: Longest Word
 ------------------------------------------------------
 Given a sentence, return the longest word in the sentence.
